@@ -39,5 +39,5 @@ st.dataframe(st.session_state.cows, use_container_width=True)
 today = datetime.date.today()
 st.subheader("⏰ Calving Alerts")
 
-alerts = st.session_state.cows[
+
     (st.session_state.cows["Calving Date"] - today).dt.d_
