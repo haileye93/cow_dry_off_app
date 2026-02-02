@@ -40,4 +40,3 @@ today = datetime.date.today()
 st.subheader("⏰ Calving Alerts")
 
 
-    (st.session_state.cows["Calving Date"] - today).dt.d_
